@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Colin's Dice Roller</h1>
+    </header>
+    <div class="container" id="dice-index">
+      <div id="d4">
+        <!-- image -->
+        <h2>d4</h2>
+        <select name="" id="d4-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div id="d6">
+        <!-- image -->
+        <h2>d6</h2>
+        <select name="" id="d6-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div id="d8">
+        <!-- image -->
+        <h2>d8</h2>
+        <select name="" id="d8-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div id="d10">
+        <!-- image -->
+        <h2>d10</h2>
+        <select name="" id="d10-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <label for="percentage">d10 Percentage Needed?</label
+        ><input type="checkbox" name="percentage" id="d10-percentage" />
+      </div>
+      <div id="d12">
+        <!-- image -->
+        <h2>d12</h2>
+        <select name="" id="d12-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div id="d20">
+        <!-- image -->
+        <h2>d20</h2>
+        <select name="" id="d20-select">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+    </div>
+    <button id="roll-btn">Roll!</button>
+    <footer>
+      <h2>ROLL RESULTS</h2>
+      <ul id="results"></ul>
+      <p id="total">0</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
