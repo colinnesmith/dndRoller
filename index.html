@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/syd5jcp.css" />
   </head>
   <body>
     <header>
@@ -14,84 +15,97 @@
     <div class="container" id="dice-index">
       <div id="d4">
         <!-- image -->
-        <h2>d4</h2>
-        <select name="" id="d4-select">
+        <label for="d4-select">d4</label>
+        <input type="number" class="dice" id="d4-select" min="0" value="0" />
+        <!-- <select name="" class="dice" id="d4-select">
           <option value="0">0</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-        </select>
+        </select> -->
       </div>
       <div id="d6">
         <!-- image -->
-        <h2>d6</h2>
-        <select name="" id="d6-select">
+        <label for="d6-select">d6</label>
+        <input type="number" class="dice" id="d6-select" min="0" value="0" />
+        <!-- <h2>d6</h2>
+        <select name="" class="dice" id="d6-select">
           <option value="0">0</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-        </select>
+        </select> -->
       </div>
       <div id="d8">
         <!-- image -->
-        <h2>d8</h2>
-        <select name="" id="d8-select">
+        <label for="d4-select">d8</label>
+        <input type="number" class="dice" id="d8-select" min="0" value="0" />
+        <!-- <h2>d8</h2>
+        <select name="" class="dice" id="d8-select">
           <option value="0">0</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-        </select>
+        </select> -->
       </div>
       <div id="d10">
         <!-- image -->
-        <h2>d10</h2>
-        <select name="" id="d10-select">
+        <label for="d10-select">d10</label>
+        <input type="number" class="dice" id="d10-select" min="0" value="0" />
+        <!-- <h2>d10</h2>
+        <select name="" class="dice" id="d10-select">
           <option value="0">0</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-        </select>
-        <label for="percentage">d10 Percentage Needed?</label
-        ><input type="checkbox" name="percentage" id="d10-percentage" />
+        </select> -->
+        <!-- <label for="percentage">d10 Percentage Needed?</label
+        ><input type="checkbox" name="percentage" id="d10-percentage" /> -->
       </div>
       <div id="d12">
         <!-- image -->
-        <h2>d12</h2>
-        <select name="" id="d12-select">
+        <label for="d4-select">d12</label>
+        <input type="number" class="dice" id="d12-select" min="0" value="0" />
+        <!-- <h2>d12</h2>
+        <select name="" class="dice" id="d12-select">
           <option value="0">0</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-        </select>
+        </select> -->
       </div>
       <div id="d20">
         <!-- image -->
-        <h2>d20</h2>
-        <select name="" id="d20-select">
+        <label for="d4-select">d20</label>
+        <input type="number" class="dice" id="d20-select" min="0" value="0" />
+        <!-- <h2>d20</h2>
+        <select name="" class="dice" id="d20-select">
           <option value="0">0</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-        </select>
+        </select> -->
       </div>
     </div>
-    <button id="roll-btn">Roll!</button>
     <footer>
-      <h2>ROLL RESULTS</h2>
-      <ul id="results"></ul>
-      <p id="total">0</p>
+      <div class="bottom">
+        <button id="roll-btn">Roll!</button>
+        <h2>ROLL RESULTS</h2>
+        <ul id="results"></ul>
+        <p id="total">0</p>
+      </div>
     </footer>
     <script src="app.js"></script>
   </body>
